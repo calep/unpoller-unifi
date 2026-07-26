@@ -28,7 +28,7 @@ services:
       - prometheus
 
   unpoller:
-    image: ghcr.io/unpoller/unpoller:latest
+    image: ghcr.io/unpoller/unpoller:v3.3.1
     restart: unless-stopped
     container_name: unpoller
     env_file:
